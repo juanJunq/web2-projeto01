@@ -1,0 +1,10 @@
+<form method="POST" action="?acao=Form&metodo=salvar">
+    <input type="hidden" name="id" value="{id}" />
+    <label>Emissor:</label>
+    <input type="text" name="emissor" value="{emissor}" required /><br />
+    <label>Receptor:</label>
+    <input type="text" name="receptor" value="{receptor}" required/><br />
+    <label>Mensagem:</label>
+    <textarea name="mensagem" required>{mensagem}</textarea><br />
+    <button type="submit">Enviar</button>
+  </form>
